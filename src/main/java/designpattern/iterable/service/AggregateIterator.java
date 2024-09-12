@@ -1,4 +1,4 @@
-package org.example;
+package designpattern.iterable.service;
 
 public interface AggregateIterator {
     CardIterator InorderCardIterator();

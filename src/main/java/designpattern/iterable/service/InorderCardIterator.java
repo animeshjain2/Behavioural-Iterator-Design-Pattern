@@ -1,16 +1,17 @@
-package org.example;
+package designpattern.iterable.service;
+
+import designpattern.iterable.dto.Cards;
 
 import java.util.*;
 
-public class RandomCardIterator implements CardIterator {
+public class InorderCardIterator implements CardIterator {
 
     private final List<Cards> cards;
     int position;
 
-    public RandomCardIterator(List<Cards> cards)
+    public InorderCardIterator(List<Cards> cards)
     {
         this.cards = cards;
-        Collections.shuffle(cards);
         this.position=0;
     }
 
@@ -22,4 +23,5 @@ public class RandomCardIterator implements CardIterator {
     public Cards next() {
         return cards.get(position++);
     }
+
 }

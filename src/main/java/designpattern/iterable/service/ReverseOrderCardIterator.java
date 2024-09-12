@@ -1,4 +1,6 @@
-package org.example;
+package designpattern.iterable.service;
+
+import designpattern.iterable.dto.Cards;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
-package org.example;
+package designpattern.iterable.dto;
 
 public class Cards {
 
     private final Color color;
     private final int value;
     private final String name;
-    Cards(Color color, int val,String name){
+    public Cards(Color color, int val,String name){
         this.color = color;
         this.value = val;
         this.name = name;

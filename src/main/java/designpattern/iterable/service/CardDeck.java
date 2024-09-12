@@ -1,11 +1,13 @@
-package org.example;
+package designpattern.iterable.service;
+import designpattern.iterable.dto.Cards;
+
 import java.util.*;
 
-public class CardDeck implements AggregateIterator{
+public class CardDeck implements AggregateIterator {
 
     List<Cards> cards;
 
-    CardDeck()
+    public CardDeck()
     {
         cards = new ArrayList<>();
     }

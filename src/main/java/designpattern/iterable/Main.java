@@ -1,8 +1,10 @@
-package org.example;
+package designpattern.iterable;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import designpattern.iterable.dto.Cards;
+import designpattern.iterable.dto.Color;
+import designpattern.iterable.service.CardDeck;
+import designpattern.iterable.service.CardIterator;
+
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
